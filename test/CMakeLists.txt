@@ -1,10 +1,11 @@
-#PROJECT(test)
 SET(TEST_SRC
 	test.cpp
 )
 
 ADD_EXECUTABLE(test0 ${TEST_SRC})
 TARGET_LINK_LIBRARIES(test0 WeSocket)
+
+
 #TARGET_LINK_LIBRARIES(test0 "${CMAKE_CFG_INTDIR}/WeSocket.lib")
 #include_directories(test)
 #LINK_DIRECTORIES("${CMAKE_BINARY_DIR}")
