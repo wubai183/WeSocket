@@ -39,7 +39,7 @@ public:
 		return s_bSocketInited;
 	}
 };
-
+bool SocketInitiaztion::s_bSocketInited = false;
 SocketInitiaztion SocketInitModule;
 
 #define ServerPortA 11111
